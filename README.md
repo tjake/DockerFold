@@ -1,7 +1,7 @@
 ## Running AlphaFold with Docker
 
 
- Setup of the [alphafold casp13](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13) model is only for linux, this tools allows anyone with docker (mac,pc,etc) to run the model.
+ Setup of the [alphafold casp13](https://github.com/deepmind/deepmind-research/tree/master/alphafold_casp13) model is only for linux, this tool allows anyone with docker (mac,pc,etc) to run the model.
 
 
 ### Installation:
@@ -10,16 +10,16 @@
   
   * Download [this code](https://github.com/tjake/DockerFold/archive/dockerfold.zip)
 
-     `curl https://github.com/tjake/DockerFold/archive/dockerfold.zip --output dockerfold.zip`
+     `curl -L https://github.com/tjake/DockerFold/archive/master.zip --output dockerfold.zip`
      
      `unzip dockerfold.zip`
 
-     `cd DockerFold`
+     `cd DockerFold-master`
 
 
   * Download the model data **(45GB)**
 
-     `curl http://bit.ly/alphafold-casp13-data --output data.zip`
+     `curl -L http://bit.ly/alphafold-casp13-data --output data.zip`
 
   * Unzip data into same directory
   
